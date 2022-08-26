@@ -13,7 +13,7 @@ from app.schemas import UserCreate, UserRead, UserUpdate, MyModel
 from app.users import auth_backend, current_active_user, fastapi_users
 
 app = FastAPI()
-app.mount("/static", StaticFiles(directory="static"), name="static")
+# app.mount("/static", StaticFiles(directory="static"), name="static")
 
 app.include_router(
     fastapi_users.get_auth_router(auth_backend), prefix="/auth/jwt", tags=["auth"]
