@@ -6,7 +6,7 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-
+# a test change for vercel
 @app.get("/")
 async def root():
     return {"message": "Hello World"}
