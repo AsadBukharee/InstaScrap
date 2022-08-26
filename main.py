@@ -103,6 +103,8 @@ async def main():
 </head>
 
 <body data-new-gr-c-s-check-loaded="14.1076.0" data-gr-ext-installed="">
+<form action="/docs/" enctype="multipart/form-data" method="get">
+
 	<div class="frame-root">
 		<div class="frame-content">
 			<section class="text-gray-600 body-font">
@@ -112,7 +114,7 @@ async def main():
 						<p class="mb-8 leading-relaxed">please go to api documentation</p>
 						<div class="flex justify-center">
 							<a href="https://soulmate-backend-56d9bbl6p-asadbukharee.vercel.app/docs">
-								<button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">See API Docs</button>
+								<input type="submit" value="See API Docs" class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
 							</a>
 						</div>
 					</div>
@@ -121,6 +123,7 @@ async def main():
 			</section>
 		</div>
 	</div>
+</form>
 </body>
 </html>
         """
