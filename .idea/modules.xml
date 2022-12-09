@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/InstaScrap.iml" filepath="$PROJECT_DIR$/.idea/InstaScrap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../InstaScrap/.idea/InstaScrap.iml" filepath="$PROJECT_DIR$/../InstaScrap/.idea/InstaScrap.iml" />
     </modules>
   </component>
 </project>
