@@ -15,6 +15,24 @@ from app.users import auth_backend, current_active_user, fastapi_users
 app = FastAPI()
 # app.mount("/static", StaticFiles(directory="static"), name="static")
 
+
+@app.post("/add_list_of_insta_users/")
+async def add_list_of_insta_users(names: List):
+    return {"insta names": [name for name in names]}
+
+
+
+@app.post("/select_action/")
+async def select_action():
+    return {"insta actions":"on Demand Actions will be added here"}
+
+@app.post("/a_lot_more_features/")
+async def select_action():
+    return {"insta actions":"on Demand Actions will be added here"}
+
+
+
+
 app.include_router(
     fastapi_users.get_auth_router(auth_backend), prefix="/auth/jwt", tags=["auth"]
 )
